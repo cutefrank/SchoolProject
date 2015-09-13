@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SchoolProject.exe" version="1.0.0.7" publicKeyToken="730b1793c1eaf298" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SchoolProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SchoolProject.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          如果您要變更 Windows 使用者帳戶控制層級，請將 
+          requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果您要利用檔案及登錄模擬，
+         以便提供回溯相容性，則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Domain.dll" size="4608">
+      <assemblyIdentity name="Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KBhEdwUrDpWyAMWmyy0G2gwO1xs9MJ6kvrPaKI63f4s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SchoolProject.exe" size="12216">
+      <assemblyIdentity name="SchoolProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EYdNQMebNltZSF5CwDKMiOiwcoMQpMgo7eBo26G1s3c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Session.dll" size="6656">
+      <assemblyIdentity name="Session" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qRqc0AtDxjunh+WvKEXyqoCaO31+SckLPZ3cKu7Zo1E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SchoolProject.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=m32ad-pc1\user" issuerKeyHash="5eded251020dc9603d888e4675ee1afdfc49eebd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SXByn1mgR7xOSFSJG+34GDUaKDHbtIbrdGIcnez/WXQ=</DigestValue></Reference></SignedInfo><SignatureValue>mjTPi73pqtX4/JfBLRBYjuJxpKzetM8lnROCS49g0X0ZkrND1mlrjxRUgXw9ojpENASm6F0uZgzGAfG3R/RTv6LKMNcjcQrn0dVdGmRY8bUCgSd52LuBpf9CZdGcDtLJw7JNmSoY/zzAuUKOcCmi+ayXIZxpXqKY7ksVXgL/Jvc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nwoTrCgoBHV34pxSIdAUvrfle7hV0+QTSmi5p5kHRfY3P4PeKuYZvkdMWa6J/v4KGz63GSQCE5A1e0yq/rc1/8ay/PiTogh+tvAQedXsC/bxBXOnZeGpxyDPgelUZzScPVebO01Sn3nTGkF2WYKLklT1+/jsWUVVubp4O2XKfPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7459ffec9d1c6274eb86b4db31281a3518f8ed1b8954484ebc47a0599f727049" Description="" Url=""><as:assemblyIdentity name="SchoolProject.exe" version="1.0.0.7" publicKeyToken="730b1793c1eaf298" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=m32ad-pc1\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LOOYA2ElJC2vsWw+q7+9JbKGmW9xMQYmHCere/Wm4qY=</DigestValue></Reference></SignedInfo><SignatureValue>SKQtK7Dc0qho64E1ePM7reiWhdrXwbP5WEzjH1MJpTTFFAqvZRXQp2c/vYVzbEwLIwiti3JIWHWBaTHbDVqO+liGVT+YG6sNTJu8T9Mh2RT9EhD3+H5QmQPL34she5ETWilL+JzStc8ICsMbcIAVDebB/ReZgTItEJRzU7z2qhU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nwoTrCgoBHV34pxSIdAUvrfle7hV0+QTSmi5p5kHRfY3P4PeKuYZvkdMWa6J/v4KGz63GSQCE5A1e0yq/rc1/8ay/PiTogh+tvAQedXsC/bxBXOnZeGpxyDPgelUZzScPVebO01Sn3nTGkF2WYKLklT1+/jsWUVVubp4O2XKfPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQH3+J7AO8wrpCe552+lIdcDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAbQAzADIAYQBkAC0AcABjADEAXAB1AHMAZQByMB4XDTE1MDkxMzA0MjAzM1oXDTE2MDkxMjEwMjAzM1owJzElMCMGA1UEAx4cAG0AMwAyAGEAZAAtAHAAYwAxAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnwoTrCgoBHV34pxSIdAUvrfle7hV0+QTSmi5p5kHRfY3P4PeKuYZvkdMWa6J/v4KGz63GSQCE5A1e0yq/rc1/8ay/PiTogh+tvAQedXsC/bxBXOnZeGpxyDPgelUZzScPVebO01Sn3nTGkF2WYKLklT1+/jsWUVVubp4O2XKfPUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBIllEqEK9SMdPtSRGjusv+GqiTCPVV3q2rH0JZWznFKeG7Ap5l/u5C1m2Ula2i8Rp0q2sdpSzI8AbhUQqoGiqPIlINzb1IwH/rMxd/jkgg+L6Z7zkKxbQTKp5Up1FANRvA6rxwZjkxsgCREPwJXFCxUI8EQYQy8CjGmZYiC8YaxA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

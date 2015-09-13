@@ -1,0 +1,17 @@
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe.config
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe.manifest
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\SchoolProject.application
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\SchoolProject.pdb
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\Domain.dll
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\Session.dll
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\Domain.pdb
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\bin\Debug\Session.pdb
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.exe.manifest
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.application
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.exe
+c:\users\user\documents\visual studio 2013\Projects\SchoolProject\SchoolProject\obj\Debug\SchoolProject.pdb
